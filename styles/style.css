@@ -6,3 +6,53 @@ Green: #00B172
 White: #FFF
 
 */
+/* Navigation*/
+
+html {
+    font-family: 'Releway', sans-serif;
+    font-size: 16px;
+    margin: 5vh;
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+
+nav{
+    width: 600px;
+}
+.logo-spotify{
+    width: 30vh;
+    margin-right: 1rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+    gap: 5vh;
+    font-size: 3vh;
+    font-weight: lighter;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+/* Section 1 and photo */
+
+section.content-photo {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    width: 195vh;
+    margin: none;
+}
+section.content-photo h1, p{
+    color: white;
+    margin: 0;
+}
